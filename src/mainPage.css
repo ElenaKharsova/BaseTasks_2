@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Alegreya Sans";
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  margin: 0 20px 0 20px;
+}
+
+button {
+  border-radius: 25% 10%;
+  background-color: darkgrey;
+  width: 100px;
+  height: 33px;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: dimgrey;
+  color: linen;
+  opacity: 1;
+}
+
+div {
+  font-size: 18px;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1140;
+  width: 98%;
+}
+
+.li {
+  border: solid;
+  border-radius: 10px;
+  border-color: rgb(177, 212, 201);
+  background-color: rgb(177, 212, 201);
+}
+
+.mainPage {
+  background-color: rgb(233, 251, 245);
+  border-color: rgb(233, 251, 245);
+  border: solid;
+  border-radius: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
